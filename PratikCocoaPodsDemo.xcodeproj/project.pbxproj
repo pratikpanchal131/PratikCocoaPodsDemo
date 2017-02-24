@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A933E8BC1E600EB900B5D18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933E8BB1E600EB900B5D18F /* AppDelegate.swift */; };
+		A933E8BE1E600EB900B5D18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933E8BD1E600EB900B5D18F /* ViewController.swift */; };
+		A933E8C11E600EB900B5D18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A933E8BF1E600EB900B5D18F /* Main.storyboard */; };
+		A933E8C31E600EB900B5D18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933E8C21E600EB900B5D18F /* Assets.xcassets */; };
+		A933E8C61E600EB900B5D18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A933E8C41E600EB900B5D18F /* LaunchScreen.storyboard */; };
+		A933E8D11E600EB900B5D18F /* PratikCocoaPodsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933E8D01E600EB900B5D18F /* PratikCocoaPodsDemoTests.swift */; };
+		A933E8DC1E600EB900B5D18F /* PratikCocoaPodsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933E8DB1E600EB900B5D18F /* PratikCocoaPodsDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A933E8CD1E600EB900B5D18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A933E8B01E600EB900B5D18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A933E8B71E600EB900B5D18F;
+			remoteInfo = PratikCocoaPodsDemo;
+		};
+		A933E8D81E600EB900B5D18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A933E8B01E600EB900B5D18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A933E8B71E600EB900B5D18F;
+			remoteInfo = PratikCocoaPodsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A933E8B81E600EB900B5D18F /* PratikCocoaPodsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PratikCocoaPodsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A933E8BB1E600EB900B5D18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A933E8BD1E600EB900B5D18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A933E8C01E600EB900B5D18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A933E8C21E600EB900B5D18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A933E8C51E600EB900B5D18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A933E8C71E600EB900B5D18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A933E8CC1E600EB900B5D18F /* PratikCocoaPodsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikCocoaPodsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A933E8D01E600EB900B5D18F /* PratikCocoaPodsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PratikCocoaPodsDemoTests.swift; sourceTree = "<group>"; };
+		A933E8D21E600EB900B5D18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A933E8D71E600EB900B5D18F /* PratikCocoaPodsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PratikCocoaPodsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A933E8DB1E600EB900B5D18F /* PratikCocoaPodsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PratikCocoaPodsDemoUITests.swift; sourceTree = "<group>"; };
+		A933E8DD1E600EB900B5D18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A933E8B51E600EB900B5D18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A933E8C91E600EB900B5D18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A933E8D41E600EB900B5D18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A933E8AF1E600EB900B5D18F = {
+			isa = PBXGroup;
+			children = (
+				A933E8BA1E600EB900B5D18F /* PratikCocoaPodsDemo */,
+				A933E8CF1E600EB900B5D18F /* PratikCocoaPodsDemoTests */,
+				A933E8DA1E600EB900B5D18F /* PratikCocoaPodsDemoUITests */,
+				A933E8B91E600EB900B5D18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A933E8B91E600EB900B5D18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A933E8B81E600EB900B5D18F /* PratikCocoaPodsDemo.app */,
+				A933E8CC1E600EB900B5D18F /* PratikCocoaPodsDemoTests.xctest */,
+				A933E8D71E600EB900B5D18F /* PratikCocoaPodsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A933E8BA1E600EB900B5D18F /* PratikCocoaPodsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A933E8BB1E600EB900B5D18F /* AppDelegate.swift */,
+				A933E8BD1E600EB900B5D18F /* ViewController.swift */,
+				A933E8BF1E600EB900B5D18F /* Main.storyboard */,
+				A933E8C21E600EB900B5D18F /* Assets.xcassets */,
+				A933E8C41E600EB900B5D18F /* LaunchScreen.storyboard */,
+				A933E8C71E600EB900B5D18F /* Info.plist */,
+			);
+			path = PratikCocoaPodsDemo;
+			sourceTree = "<group>";
+		};
+		A933E8CF1E600EB900B5D18F /* PratikCocoaPodsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A933E8D01E600EB900B5D18F /* PratikCocoaPodsDemoTests.swift */,
+				A933E8D21E600EB900B5D18F /* Info.plist */,
+			);
+			path = PratikCocoaPodsDemoTests;
+			sourceTree = "<group>";
+		};
+		A933E8DA1E600EB900B5D18F /* PratikCocoaPodsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A933E8DB1E600EB900B5D18F /* PratikCocoaPodsDemoUITests.swift */,
+				A933E8DD1E600EB900B5D18F /* Info.plist */,
+			);
+			path = PratikCocoaPodsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A933E8B71E600EB900B5D18F /* PratikCocoaPodsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A933E8E01E600EB900B5D18F /* Build configuration list for PBXNativeTarget "PratikCocoaPodsDemo" */;
+			buildPhases = (
+				A933E8B41E600EB900B5D18F /* Sources */,
+				A933E8B51E600EB900B5D18F /* Frameworks */,
+				A933E8B61E600EB900B5D18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PratikCocoaPodsDemo;
+			productName = PratikCocoaPodsDemo;
+			productReference = A933E8B81E600EB900B5D18F /* PratikCocoaPodsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A933E8CB1E600EB900B5D18F /* PratikCocoaPodsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A933E8E31E600EB900B5D18F /* Build configuration list for PBXNativeTarget "PratikCocoaPodsDemoTests" */;
+			buildPhases = (
+				A933E8C81E600EB900B5D18F /* Sources */,
+				A933E8C91E600EB900B5D18F /* Frameworks */,
+				A933E8CA1E600EB900B5D18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A933E8CE1E600EB900B5D18F /* PBXTargetDependency */,
+			);
+			name = PratikCocoaPodsDemoTests;
+			productName = PratikCocoaPodsDemoTests;
+			productReference = A933E8CC1E600EB900B5D18F /* PratikCocoaPodsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A933E8D61E600EB900B5D18F /* PratikCocoaPodsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A933E8E61E600EB900B5D18F /* Build configuration list for PBXNativeTarget "PratikCocoaPodsDemoUITests" */;
+			buildPhases = (
+				A933E8D31E600EB900B5D18F /* Sources */,
+				A933E8D41E600EB900B5D18F /* Frameworks */,
+				A933E8D51E600EB900B5D18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A933E8D91E600EB900B5D18F /* PBXTargetDependency */,
+			);
+			name = PratikCocoaPodsDemoUITests;
+			productName = PratikCocoaPodsDemoUITests;
+			productReference = A933E8D71E600EB900B5D18F /* PratikCocoaPodsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A933E8B01E600EB900B5D18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = indianic;
+				TargetAttributes = {
+					A933E8B71E600EB900B5D18F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A933E8CB1E600EB900B5D18F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A933E8B71E600EB900B5D18F;
+					};
+					A933E8D61E600EB900B5D18F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A933E8B71E600EB900B5D18F;
+					};
+				};
+			};
+			buildConfigurationList = A933E8B31E600EB900B5D18F /* Build configuration list for PBXProject "PratikCocoaPodsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A933E8AF1E600EB900B5D18F;
+			productRefGroup = A933E8B91E600EB900B5D18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A933E8B71E600EB900B5D18F /* PratikCocoaPodsDemo */,
+				A933E8CB1E600EB900B5D18F /* PratikCocoaPodsDemoTests */,
+				A933E8D61E600EB900B5D18F /* PratikCocoaPodsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A933E8B61E600EB900B5D18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A933E8C61E600EB900B5D18F /* LaunchScreen.storyboard in Resources */,
+				A933E8C31E600EB900B5D18F /* Assets.xcassets in Resources */,
+				A933E8C11E600EB900B5D18F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A933E8CA1E600EB900B5D18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A933E8D51E600EB900B5D18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A933E8B41E600EB900B5D18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A933E8BE1E600EB900B5D18F /* ViewController.swift in Sources */,
+				A933E8BC1E600EB900B5D18F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A933E8C81E600EB900B5D18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A933E8D11E600EB900B5D18F /* PratikCocoaPodsDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A933E8D31E600EB900B5D18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A933E8DC1E600EB900B5D18F /* PratikCocoaPodsDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A933E8CE1E600EB900B5D18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A933E8B71E600EB900B5D18F /* PratikCocoaPodsDemo */;
+			targetProxy = A933E8CD1E600EB900B5D18F /* PBXContainerItemProxy */;
+		};
+		A933E8D91E600EB900B5D18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A933E8B71E600EB900B5D18F /* PratikCocoaPodsDemo */;
+			targetProxy = A933E8D81E600EB900B5D18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A933E8BF1E600EB900B5D18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A933E8C01E600EB900B5D18F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A933E8C41E600EB900B5D18F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A933E8C51E600EB900B5D18F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A933E8DE1E600EB900B5D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A933E8DF1E600EB900B5D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A933E8E11E600EB900B5D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PratikCocoaPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikCocoaPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A933E8E21E600EB900B5D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PratikCocoaPodsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikCocoaPodsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A933E8E41E600EB900B5D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PratikCocoaPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikCocoaPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PratikCocoaPodsDemo.app/PratikCocoaPodsDemo";
+			};
+			name = Debug;
+		};
+		A933E8E51E600EB900B5D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PratikCocoaPodsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikCocoaPodsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PratikCocoaPodsDemo.app/PratikCocoaPodsDemo";
+			};
+			name = Release;
+		};
+		A933E8E71E600EB900B5D18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PratikCocoaPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikCocoaPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PratikCocoaPodsDemo;
+			};
+			name = Debug;
+		};
+		A933E8E81E600EB900B5D18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PratikCocoaPodsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.PratikCocoaPodsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PratikCocoaPodsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A933E8B31E600EB900B5D18F /* Build configuration list for PBXProject "PratikCocoaPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A933E8DE1E600EB900B5D18F /* Debug */,
+				A933E8DF1E600EB900B5D18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A933E8E01E600EB900B5D18F /* Build configuration list for PBXNativeTarget "PratikCocoaPodsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A933E8E11E600EB900B5D18F /* Debug */,
+				A933E8E21E600EB900B5D18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A933E8E31E600EB900B5D18F /* Build configuration list for PBXNativeTarget "PratikCocoaPodsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A933E8E41E600EB900B5D18F /* Debug */,
+				A933E8E51E600EB900B5D18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A933E8E61E600EB900B5D18F /* Build configuration list for PBXNativeTarget "PratikCocoaPodsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A933E8E71E600EB900B5D18F /* Debug */,
+				A933E8E81E600EB900B5D18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A933E8B01E600EB900B5D18F /* Project object */;
+}
